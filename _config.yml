@@ -27,3 +27,5 @@ facebook:
 #  admins:
 github:
   username: skshetry
+sass:
+    style: compressed

@@ -22,12 +22,8 @@
     {% endif %}
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
     <meta name="robots" content="noarchive">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-      .page-header-cover{
-        background-image: url({{layout.cover}})
-      }
+.page-header-cover{background-image: url({{layout.cover}})}
     </style>
   </head>
   <body>
@@ -104,4 +100,7 @@
       </script>
     {% endif %}
   </body>
+  <script>
+(function(){var font=document.createElement('link');var font2=document.createElement('link');font.type='text/css';font2.type='text/css';font.rel='stylesheet';font2.rel='stylesheet';font.href='{{'/assets/css/style.css'|relative_url}}';font2.href='https://fonts.googleapis.com/css?family=Open+Sans:400,700';var s=document.getElementsByTagName('link')[0];var t=document.getElementsByTagName('link')[0];s.parentNode.insertBefore(font,s);t.parentNode.insertBefore(font2,t);})();
+  </script>
 </html>
