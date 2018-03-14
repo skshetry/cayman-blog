@@ -1,13 +1,8 @@
 ---
 layout: page
 title: About
-tagline: A few more words about this theme
-permalink: /about.html
+tagline: Few words about me
+permalink: /about
 ---
 
-This is the _Cayman Blog_ Jekyll theme. You can find out more info about customizing this theme, as well as basic usage documentation, and source code at: [cayman-blog](https://github.com/lorepirri/cayman-blog)
-
-You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
-
-
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
+I'm Saugat Pachhai, currently pursuing a computer engineering in Paschimanchal Engineering Campus,IOE, Nepal. I have interest in Robotics, Automation and Computers. I develop mostly in C, C++ and Python. 
