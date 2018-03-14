@@ -22,9 +22,6 @@
     {% endif %}
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
     <meta name="robots" content="noarchive">
-    <style>
-.page-header-cover{background-image: url({{layout.cover}})}
-    </style>
   </head>
   <body>
     {% include site-header.html %}
@@ -88,19 +85,16 @@
         {% endif %}
       </footer>
     </section>
-    {% if site.google_analytics %}
       <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
+        (function(){document.getElementsByClassName('page-header-cover')[0].style['background-image']='url({{layout.cover}})';var font=document.createElement('link');var font2=document.createElement('link');font.type='text/css';font2.type='text/css';font.rel='stylesheet';font2.rel='stylesheet';font.href='{{'/assets/css/style.css'|relative_url}}';font2.href='https://fonts.googleapis.com/css?family=Open+Sans:400,700';var s=document.getElementsByTagName('link')[0];var t=document.getElementsByTagName('link')[0];s.parentNode.insertBefore(font,s);t.parentNode.insertBefore(font2,t);})();
+        {% if site.google_analytics %}
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', '{{ site.google_analytics }}', 'auto');
+          ga('send', 'pageview');
+        {% endif %}
       </script>
-    {% endif %}
   </body>
-  <script>
-(function(){var font=document.createElement('link');var font2=document.createElement('link');font.type='text/css';font2.type='text/css';font.rel='stylesheet';font2.rel='stylesheet';font.href='{{'/assets/css/style.css'|relative_url}}';font2.href='https://fonts.googleapis.com/css?family=Open+Sans:400,700';var s=document.getElementsByTagName('link')[0];var t=document.getElementsByTagName('link')[0];s.parentNode.insertBefore(font,s);t.parentNode.insertBefore(font2,t);})();
-  </script>
 </html>
