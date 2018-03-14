@@ -3,4 +3,4 @@ layout: home
 ---
 Hi, I'm Saugat Pachhai, currently pursuing a computer engineering in Paschimanchal Engineering Campus,IOE, Nepal. I have interest in Robotics, Automation and Computers. I develop mostly in C, C++ and Python. 
 
-I am thinking of posting my few posts here in the coming d
+I am thinking of posting my few posts here in the coming days.
