@@ -1,5 +1,6 @@
 ---
 layout: page
+cover-gradient: linear-gradient(120deg, red, yellow);
 title: About
 tagline: Few words about me
 permalink: /about

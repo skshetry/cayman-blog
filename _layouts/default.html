@@ -31,6 +31,12 @@
 
   <meta name="robots" content="noarchive">
 
+  <style>
+    .page-header-gradient{
+      background-image: {% if layout.cover-gradient %} {{ layout.cover-gradient }} {% else %} {{ page.cover-gradient }} {% endif %});
+    };
+  </style>
+
 </head>
 
 <body>
@@ -48,7 +54,7 @@
     {% assign page-tagline = page.tagline | escape %}
   {% endif %}
 
-  <section class="page-header {%if layout.cover %}page-header-cover{%endif%} ">
+  <section class="page-header {%if layout.cover or page.cover %}page-header-cover{%endif%} {%if layout.cover-gradient or page.cover-gradient %}page-header-gradient{%endif%} ">
     <h1 class="project-name ">{{ page-title }}</h1>
 
     <h2 class="project-tagline ">{{ page-tagline }}</h2>
@@ -163,7 +169,7 @@
           ga('send', 'pageview');
     {% endif %}
   
-    document.getElementsByClassName('page-header-cover')[0].style['background-image'] = 'url({{layout.cover}})';
+    document.getElementsByClassName('page-header-cover')[0].style['background-image'] = 'url({% if layout.cover %} {{ layout.cover }} {% else %} {{ page.cover }} {% endif %})';
   </script>
 </body>
 
