@@ -109,7 +109,7 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 5px;
 
   @include large {
@@ -126,13 +126,13 @@ a {
 }
 
 .heads{
-  font-family: 'Arvo', serif;
+  font-family: 'Arvo', 'Times New Roman', Times, serif;
 }
 
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: bold;
-  font-family: 'Arvo';
+  font-family: 'Arvo', 'Times New Roman', Times, serif;
   opacity: 0.7;
 
   @include large {
@@ -204,6 +204,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
+    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
     color: $section-headings-color;
   }
 

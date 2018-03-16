@@ -32,6 +32,12 @@
   <meta name="robots" content="noarchive">
 
   <style>
+    {% capture include_to_scssify %}
+    {% include jekyll-theme-cayman-blog.scss %}
+    {% endcapture %}
+
+    {{ include_to_scssify | scssify | strip_newlines  }}
+
     .page-header-gradient{
       background-image: {% if layout.cover-gradient %} {{ layout.cover-gradient }} {% else %} {{ page.cover-gradient }} {% endif %});
     };
@@ -140,22 +146,16 @@
 
   <script type="text/javascript">
     (function () {
-        var font = document.createElement('link');
         var font2 = document.createElement('link');
 
-        font.type = 'text/css';
         font2.type = 'text/css';
 
-        font.rel = 'stylesheet';
         font2.rel = 'stylesheet';
 
-        font.href = '{{"/assets/css/style.css" | relative_url}}';
         font2.href = 'https://fonts.googleapis.com/css?family=Quicksand|Arvo|Open+Sans:400,700';
 
-        var s = document.getElementsByTagName('link')[0];
         var t = document.getElementsByTagName('link')[0];
         
-        s.parentNode.insertBefore(font, s);
         t.parentNode.insertBefore(font2, t);
       })();
 
@@ -168,8 +168,9 @@
           ga('create', '{{ site.google_analytics }}', 'auto');
           ga('send', 'pageview');
     {% endif %}
-  
-    document.getElementsByClassName('page-header-cover')[0].style['background-image'] = 'url({% if layout.cover %} {{ layout.cover }} {% else %} {{ page.cover }} {% endif %})';
+    if (document.querySelector('.page-header-cover') !== null) {
+      document.getElementsByClassName('page-header-cover')[0].style['background-image'] = 'url({% if layout.cover %} {{ layout.cover }} {% else %} {{ page.cover }} {% endif %})';
+    }
   </script>
 </body>
 
