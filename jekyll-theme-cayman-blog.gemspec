@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary       = "Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and GitHub Pages, with social/SEO features. Based on Cayman theme."
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README|index|about|contact|404)((\.(txt|md|markdown)|$)))}i)
+    f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README|)((\.(txt|md|markdown)|$)))}i)
   end
 
   s.platform      = Gem::Platform::RUBY
