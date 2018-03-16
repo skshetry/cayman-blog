@@ -1,0 +1,15 @@
+CACHE MANIFEST
+# 2018-03-16:v9
+
+# Explicitly cached 'master entries'.
+
+CACHE:
+/favicon.ico
+/
+/manifest.json
+
+# Resources that require the user to be online.
+NETWORK:
+*
+
+FALLBACK:
