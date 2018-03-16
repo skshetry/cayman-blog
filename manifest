@@ -3,10 +3,10 @@
   "short_name": "Saugat's Blog",
   "start_url": ".",
   "display": "browser",
-  "background_color": "#116437",
+  "background_color": "#ffffff",
   "description": "Personal blog",
   "icons": [{
     "src": "favicon.ico",
-    "sizes": "32x32",
+    "sizes": "32x32
   }]
 }
