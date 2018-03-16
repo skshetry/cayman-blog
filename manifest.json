@@ -1,12 +1,13 @@
 {
   "name": "Saugat Pachhai | Personal Blog",
-  "short_name": "Saugat's Blog",
-  "start_url": ".",
+  "short_name": "Saugat",
+  "start_url": "/?source=homescreen",
   "display": "browser",
   "background_color": "#ffffff",
   "description": "Personal blog",
+  "lang": "en-US",
   "icons": [{
     "src": "favicon.ico",
-    "sizes": "32x32
-  },]
+    "sizes": "32x32"
+  }]
 }
