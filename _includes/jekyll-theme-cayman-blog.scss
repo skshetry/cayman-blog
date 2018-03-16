@@ -28,7 +28,7 @@
 body {
   padding-top: $spacing-unit * 1.865;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -109,7 +109,7 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
-  font-family: 'Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   @include large {
     font-size: 3.25rem;
@@ -128,13 +128,13 @@ a {
   letter-spacing: 5px;
 }
 .heads{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arvo', 'Times New Roman', Times, serif;
 }
 
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arvo', 'Times New Roman', Times, serif;
   opacity: 0.7;
 
   @include large {
@@ -206,7 +206,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
     color: $section-headings-color;
   }
 
