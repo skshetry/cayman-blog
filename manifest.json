@@ -4,6 +4,7 @@
   "start_url": "/?source=homescreen",
   "display": "browser",
   "background_color": "#ffffff",
+  "theme_color": "#116437",
   "description": "Personal blog",
   "lang": "en-US",
   "icons": [{
