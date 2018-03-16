@@ -64,7 +64,7 @@
   {% endif %}
 
   <section class="page-header {%if layout.cover or page.cover %}page-header-cover{%endif%} {%if layout.cover-gradient or page.cover-gradient %}page-header-gradient{%endif%} ">
-    <h1 class="project-name ">{{ page-title }}</h1>
+    <h1 class="project-name {% if page.layout != "post" %}project-name-spaced{%endif%} ">{{ page-title }}</h1>
 
     <h2 class="project-tagline ">{{ page-tagline }}</h2>
 
@@ -85,11 +85,11 @@
 
       {% assign page_author = page.author | default: site.author | default: nil | escape %}
 
-        {% if page_author %} •
+        {% comment %} {% if page_author %} •
           <span itemprop="author " itemscope itemtype="http://schema.org/Person ">
             <span itemprop="name ">{{ page_author }}</span>
           </span>
-        {% endif %}
+        {% endif %} {% endcomment %}
     </h2>
 
     {% endif %}
