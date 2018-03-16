@@ -32,3 +32,4 @@ github:
   username: skshetry
 sass:
     style: compressed
+permalink: /:year/:title

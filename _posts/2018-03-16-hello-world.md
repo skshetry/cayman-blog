@@ -2,6 +2,7 @@
 layout: post
 title: "Hello World!!"
 cover-gradient:   'linear-gradient(to right, #283c86, #45a247);'
+permalink: /hello-world
 ---
 
 ### Hi!
