@@ -165,6 +165,8 @@
     if (document.querySelector('.page-header-cover') !== null) {
       document.getElementsByClassName('page-header-cover')[0].style['background-image'] = 'url({% if layout.cover %} {{ layout.cover }} {% else %} {{ page.cover }} {% endif %})';
     }
+    
+      navigator.serviceWorker.register('/service-worker.js');
   </script>
 </body>
 
