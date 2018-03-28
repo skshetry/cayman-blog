@@ -171,13 +171,15 @@
 
       var links = document.querySelectorAll('a');
 
-      for (var i = 0; i < links.length; i++) {
-        links[i].onclick = function() {
-          var header = document.getElementsByClassName('site-header')[0];
-          header.classList.add('site-header-clicked');
-        };
-      }
-      
+      function animate_loading_(){
+        var header = document.getElementsByClassName('site-header')[0];
+        header.classList.add('site-header-clicked');
+      };
+
+      links.forEach(function(element){
+        element.onclick = animate_loading_;
+      });
+
       if(navigator.onLine==false){
         document.getElementById('offline-icon').style['display'] = 'inline';
       }
