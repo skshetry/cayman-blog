@@ -4,6 +4,7 @@ cover-gradient: linear-gradient(120deg, red, yellow);
 title: About
 tagline: Few words about me
 permalink: /about
+sitemap: false
 ---
 
 Hi, I'm Saugat Pachhai, currently pursuing a computer engineering in Paschimanchal Campus,Institute of Engineering, Nepal. I have interest in Robotics, Automation and Computers. I develop mostly in C, C++ and Python. 

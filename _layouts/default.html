@@ -11,10 +11,18 @@
   {% if page.title %}
     {% assign page-title = page.title | escape %}
   {% else %}
-    {% assign page-title = site.title | escape%}
+    {% assign page-title = site.sitename | escape%}
   {% endif %}
 
-  <title>{{ page-title }}</title>
+  <title>{{ page-title }} 
+    {% if page.title %}
+    {% else %}
+       | {{site.description}} 
+    {% endif %}
+    {% if page.layout == 'page' %}
+      | {{site.sitename}}
+    {% endif %}
+  </title>
 
   {% if site.gems contains "jekyll-seo-tag" %}
   {% else %}
