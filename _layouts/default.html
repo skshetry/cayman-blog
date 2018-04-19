@@ -153,6 +153,13 @@
       {% endif %}
     </footer>
   </section>
+  <div id="offline-bar">
+    <span class="message">
+        It seems that the network is offline. &emsp;<a href="#">Reload?</a>
+      </span>
+    </div>
+  
+
 
   <script type="text/javascript">
     (function () {
@@ -189,7 +196,7 @@
       });
 
       if(navigator.onLine==false){
-        document.getElementById('offline-icon').style['display'] = 'inline';
+        document.getElementById('offline-bar').style['display'] = 'inline';
       }
   </script>
 </body>
