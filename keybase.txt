@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/skshetry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://saugatkshetry.com.np
+  * I am skshetry (https://keybase.io/skshetry) on keybase.
+  * I have a public key with fingerprint 3C0A 8962 9BFA 5C16 B7B3  C730 424B DDBA 58C0 953D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012024872c4e2f03f0bbd1d878502aeaffae29b03a67cfc01db07195c52437ebe6ea0a",
+      "fingerprint": "3c0a89629bfa5c16b7b3c730424bddba58c0953d",
+      "host": "keybase.io",
+      "key_id": "424bddba58c0953d",
+      "kid": "0101c3086933a2711d4374f2e59c5f1ac1a3f6cfdc4d40a7e2ca85e55f98c6ed33990a",
+      "uid": "2c083d335818fab33073867b266ab919",
+      "username": "skshetry"
+    },
+    "service": {
+      "hostname": "saugatkshetry.com.np",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1535114246,
+  "expire_in": 157680000,
+  "prev": "082c9676b506d68a3fb1403bc66ac0c3afd7c38f8fa3b2e31d4078f2cf6422da",
+  "seqno": 35,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUntQVFUcXgSSUJMKdzND4Y4OOIHde899bi4+mhJSsmAYTRu3c849d7khd9e9
+K0jAKpWvkXwOKmlOjcmrHWB8DCMFYlMRjwl1VRwQlWa0QKfS0hFkhu4y8l/nnzPn
+m+/7zvf75rd3WrglKmzp8v6m1a3ljrDOQWRZu3l0ahGF3EohZS+icsn4RdYrxPA5
+czWFslM0w9IsJ4ks5gir0kClEVIYRRIlnmYhgaoKCSsjGkBBxCqmGQXRIiPzmGc5
+IBJEBAJpSCVTqqa7iNfj1XSfaQswDSVZMJUq5DEjIBEBLAKaYzmkKAjyEqZlHiim
+MMdthBRmOAQNskBzm5j5cI7H+x/+RG6awYCWBBkAyIoMo5hxOJUlvIx5lYGYgUAV
+sKpgTuFoKBIWQ4knPK/KEhaIAoAsj+feOG7HYloCJshLjKRCBAAtAkkQESsIEMmM
+HCIaxKvDPGKyjVwjh/i8hVRJMmWi+RomoWJDk0ww4EYX9D2lLcDuvAW6x/TweN0+
+N3avNxk5Pp/HsIccfIWekKSAIOdTMyfSdMXs01TkE6+huXXKzphM7NNC7gwPeIYx
+qxGSKbLJo3mJUwsxeFGQaPOE/iH5lB1StMRiWRAFxNOCIkhmJYjhaICwORamMYCq
+ImIgqebMALEEmC3SoqSyWBU4llVC/Rhkg+6m7IA3g0JXaDTNpUPfRi+hSqJ3TgIR
+lrAoS5w1IWJh9E50ZOQDa+OpNnpiCSMnhTbQEv1szARSUzd9bJXftqqnw/hw9bR/
+bnvKxTn+lt5UZf49a2xW3wPxTozzleGzl3940XKo/ti8lX9NlifNpFps7Sl6jM3x
+zfyW7SvKjpKg/tXwis4ls88bFx82Z94ltY3xICM1fu5g8YOtCZPn9ha/bHz7a92y
+jhmdVxocz/cN1E+P60q4Uf9x6/Zdw4cz/ry1qzHQ/PmTvq/PVNfVLU6ssgZuPbMh
+O719YY924mz/w0DT0L01Lj936vSemN9Zpq7//qfN2/b/drk6uxo1oEfX/qiqfG3v
+DNeOvCeXzxlZJfFxjmCDf0vkptRZW8un3n01psb/eBEvfdY09NONHnm0JfG7+qnv
+nixt2/9G1pk1l0o6O8qs/jQ9iIQbgXkvdZGM1LKLFbevl1+I1fbFTX5kVK8c3AJl
+9e1F2fe6r+4Ap9PLIm5ek39JP3mgM/Mj1/aBrk8KK8aSsiv3vbC0dVa0Y8tbtu53
+vl8WG/6jLacb/Fw15zAZWPcgEH4r6e/z8VJi0YH78W82nb/tyPAUqkKQ6j12tW2K
+Enl8Sf3QlItcTttoXtTu2VIwWn9vd/viPYGKkedu1uqbB+SjJ1YW3zlQ25FZ4Pp3
+5Erh0esHj6c7Y/3qukOnsuYcuZp/YSAppTR8xJ8S+WXpTNvyXE/VuapLi2Je76lc
+O2/bF70F7zOr01rTLkTUlFofH4w+sl4dHgu6bs6qSMxsj/0P
+=Ocnh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/skshetry
+
+==================================================================
